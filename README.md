@@ -4,3 +4,6 @@ This GitHub repository serves as my portfolio for various personal projects, old
 My university work can be found at https://gitlab.com/AlexElliott.
 
 As well as what can be found here, I also contributed to this game dev project: https://github.com/0rang/story_jam. For some reason GitHub has forgotten that I contributed at all, so my name can still be seen in the commits but does not link to this profile, and indeed cannot be clicked on at all. I have no idea why.
+
+Showcases for the Blender files can be found on my Steam profile, here: https://steamcommunity.com/profiles/76561198037767629/images
+and here: https://steamcommunity.com/profiles/76561198037767629/videos
