@@ -6,3 +6,7 @@ My name is still visible in the commits but it does not link to my profile (or a
 Story game project: https://github.com/0rang/story_jam
 
 This project was done for a story game focused jam and I did it with two friends. I wrote up a game script in the weeks beforehand, others did other artistic aspects like art and music, then when the jam started proper we all began coding. My job was creating the levels, which I designed and then created in the game with a tileset. Though we never finished the game on account of university restarting, I think we managed to have a focused project for the time it was active.
+
+Global Game Jam profile: https://globalgamejam.org/users/nebula-dragon
+
+My GGJ profile tracks everything I've done in those jams. Currently I have only participated once, in what was the first time I'd ever done game dev so the result is not impressive at all, but that will change next week! 
