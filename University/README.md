@@ -1,0 +1,1 @@
+This folder contains info about all my most relevant academic projects. None of the repositories for these projects were done with this Git account so instead there are README's for each project that contain a link to the repository instead, along with a description of what the project was and my thoughts on it.
