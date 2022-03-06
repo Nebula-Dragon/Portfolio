@@ -6,7 +6,7 @@ One of these tools was their own in-house mapping software Hammer, included free
 It's very complex and professional, but over a few months I had been learning it (with the help of community tutorials) and embarked on a project to make my own proper 
 map, the files of which you see here. It's nowhere near finished, but I've found that I greatly enjoyed the process. Currently only the map geometry, textures and props 
 are in place, there is still game logic, lighting and sound to do before it's a minimum viable product. I will post updates here as I develop it, after which I fully 
-plan to get feedback on it from the TF2 mapping community, and improve on it some more.
+plan to get feedback on it from the TF2 mapping community and improve on it some more.
 
 Here are some screenshots of the map within the Hammer editor:
 
