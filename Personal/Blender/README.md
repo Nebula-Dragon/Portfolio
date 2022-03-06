@@ -17,6 +17,6 @@ I was very proud of doing all this and I wanted to do more with Blender. Around 
 
 ![image](https://user-images.githubusercontent.com/57454635/154151985-7bf97a60-87f7-4d29-9195-4bb7825aa024.png)
 
-![image](https://user-images.githubusercontent.com/57454635/154152033-78b069a1-ff50-4ceb-8fb4-cf791064a060.png)
+<img src="https://user-images.githubusercontent.com/57454635/154152033-78b069a1-ff50-4ceb-8fb4-cf791064a060.png" width="75%" height="75%">
 
 While these aren't the most impressive from a modelling point of view, and wouldn't have ever made it into the actual game, the act of making them felt quite rewarding. Making them under a great time pressure and knowing they'll be made public straight afterwards produced a different work atmosphere than what I was used to, but in the end I felt like I'd done well. The more professional modellers had made a lot better stuff, but I was happy that I was able to work under the pressure and come out the other side with something finished to show for it. Plus, participating the second time netted me a nice little medal in-game.
