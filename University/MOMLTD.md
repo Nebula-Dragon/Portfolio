@@ -1,3 +1,12 @@
+Source code:
 https://gitlab.com/TGCrow/MOMLTD
 
-This was a group web project.
+This was a group software engineering project for 2nd year. It was a web development task where we had to, in a group of six, design and create a functioning cinema website. This included both frontend and backend development, creating a multitude of pages for the cinema as well as a booking system and the ability to log into an account. The name MOMLTD was our group name, which was a joke acronym.
+
+In this project I handled a lot of the frontend development. I helped design and write the html and css for the first batch of webpages, then added input functionality to them and connected up that input to the database that the backend team had created. I did more of this markup and backend integration work, later adding javascript to the pages.
+
+Ultimately though, seeing as web dev isn't really my area of interest, it's not so important what we made as how we made it. This was a team project through and through; as a team of six we had to meet regularly and decide what needed to be done and who was going to do what. Communication was important both within the team, it had to be clear what things people were working on so we didn't tread on each other's toes, and between teams, as we split into two smaller teams of three for frontend and backend work and these two sides needed to communicate with to each other so that they could be connected up later on. Our communication went pretty well overall, despite some issues where people worked on other's pages, and everything was succesfully integrated.
+
+Documentation was also important in the project. We had to use a Git repository along with its built-in wiki and issue tracker. The repository needed to be tidy to be effective of course, something which also required communication to avoid merge conflicts as well as other potential problems. The issue tracker had to updated regularly to mark our progress and who was doing what, which we did at every meeting. The wiki (which I handled) documented what we planned to do and what we actually did, along with minutes for all our meetings, tests, and a user manual. There was a lot of it cover, but it was all complete and thorough by the end. And truthfully, I kind of enjoyed managing the wiki.  
+
+All these aspects came together at the end and I think the project worked out well, even if we didn't achieve everything. We got a 1st overall, so we must have done something right at any rate.
