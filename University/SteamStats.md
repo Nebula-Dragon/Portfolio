@@ -12,6 +12,6 @@ Example output of user data (mine):
 The analysis was coded by me, which went through the returned jsons and retireved specific pieces of data, then did a bunch of basic statistics calculations on them like average, min and max. The output to the pdf was handled by my partner. Both of these sections ran on a web application made using the Python Flask framework. 
 
 Example output of the overall program:
-![image](https://user-images.githubusercontent.com/57454635/156924998-4b8bd8a2-0fd3-4772-9608-359f73c0e984.png)
+![image](https://user-images.githubusercontent.com/57454635/156925545-6fc973d5-0365-40ae-aa9d-2af05631f99d.png)
 
 Please note: while this program still compiles it will no longer work. This is because to retrieve Steam data the SteamLadder API required a private authentication key from an existing account. We used a key from my personal account for the program but after it was submitted I revoked the key for privacy reasons, hence it will no longer authenticate.
