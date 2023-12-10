@@ -30,6 +30,15 @@ Later on we implemented normal mapping, utilising 'tangent space' to greatly inc
 
 Finally, we implemented optimisations to the mesh data to make normal mapping more efficient, by packing the data required into a more compact format when it is sent to the GPU. Specifically, this was packing the TBN (Tangent-Bitangent-Normal) matrix into a quaternion and then unpacking it in the shaders. This produced no difference in the output but reduced the amount of data being sent to the GPU, and thus its latency. This was easily the most challenging part of the coursework as it meant struggling with a lot of data formatting and reformatting between source files, Vulkan data formats I was unfamiliar with, maths libraries for the matrices and quaternions, and trying to debug issues in the shaders where no debugger is available, among other headaches.
 
-3 - 
+3 - The third coursework introduced post-processing and the idea of rendering to an intermediary texture instead of straight to output and doing multiple render passes. After setting this up initially, the first task was to implement tone mapping for high-dynamic range values, which accounts for when colour values go over 1.0 and brings them down to values able to be outputted. We implemented a simple Reinhard tone mapping operator, with this before and after result:
 
-4 - 
+![image](https://github.com/Nebula-Dragon/Portfolio/assets/57454635/063db20a-01a3-4d4a-89cc-83e08e647c63)
+
+The next task was to implement bloom. This involved filtering out the glowing parts of the object, rendering them to their own texture and doing post-processing on them before adding them back. This was the result:
+
+![image](https://github.com/Nebula-Dragon/Portfolio/assets/57454635/4eb66427-ff34-441e-a634-aa42cc7f6025)
+
+4 - The fourth coursework was about implementing shadows, which was quite a challenge. It first involved rendering the scene from the light's point of view to create a shadow map texture (a texture with only depth information), and then when rendering from the camera's point of view, using that shadow map to determine whether or not a part of the scene was in shadow. This sounds deceptively simple but involved a lot of wrangling with the Vulkan and GLSL functions for doing this as well as transforming and normalising data between different spaces, such as light space and camera space. The task also involved blurring the shadows with a post-processing filter, experimenting with different shadow resolutions and avoiding shadow acne by using frontface culling. The final result was this:
+
+![image](https://github.com/Nebula-Dragon/Portfolio/assets/57454635/5bf69b87-4a42-4cf2-aff6-416e2d77d15f)
+
