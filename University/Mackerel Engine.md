@@ -1,8 +1,8 @@
-The 'Mackerel Engine' was the final group project I did for my masters year, which involved creating a working game engine. This was a major project that lasted a whole semester and there were six of us in the group. We ended up getting a 1st for it. 
+The 'Mackerel Engine' was the main group project I did for my masters year, which involved creating a working game engine. This was a major project that lasted a whole semester and there were six of us in the group. We ended up getting a 1st for it. 
 
 The source code can be found at: https://github.com/Italia2407/Mackerel-Engine
 
-## What We did
+## What We Did
 It was too much to create something of the scope of Unity or Unreal so we set ourselves to creating a middleware game engine specialised for creating solely 3D platformer games. This included rendering, lighting, physics, game logic, entity systems and everything else that could be used to make actual video games with.
 
 Over the months of the semester we went through several stages in the project. First we planned out what features we wanted to implement and did background research on the possible methods and libraries available for those features. Entering the actual development phase, we set out three milestones for development. In the first milestone we focused on rendering and entity systems, as well as an input library, logging, file I/O and storage, and initial set up elements. In the second milestone we continued focusing on entity systems, bring in physics and finish off the renderer, then include scene management, physics, collision detection, memory management and time keeping. In the third milestone we kept working on physics and started work on UI. By the end of all this had a base implementation of an engine, where all the elements worked and we could add more functions, and after that we focused on adding animation, audio, tools for world generation, gameplay, and HUD. 
