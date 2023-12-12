@@ -1,8 +1,20 @@
-The 'Mackerel Engine' was the final group project I did for my masters year. It involved creating a working game engine, including rendering, lighting, physics, game logic, entity systems and everything else that could be used to make actual video games with.
-This was a major project that lasted a whole semester. In my group of six we planned what we would create, researched what it involved, then programmed different parts in sub-groups and finally wrote the documentation. We ended up getting 73/100, which is a 1st class.
+The 'Mackerel Engine' was the final group project I did for my masters year, which involved creating a working game engine. This was a major project that lasted a whole semester and there were six of us in the group. We ended up getting a 1st for it. 
+
+The source code can be found at: https://github.com/Italia2407/Mackerel-Engine
 
 ## What We did
-We set ourselves to creating a middleware game engine specialised to creating 3D platformer games.
+It was too much to create something of the scope of Unity or Unreal so we set ourselves to creating a middleware game engine specialised for creating solely 3D platformer games. This included rendering, lighting, physics, game logic, entity systems and everything else that could be used to make actual video games with.
+
+Over the months of the semester we went through several stages in the project. First we planned out what features we wanted to implement and did background research on the possible methods and libraries available for those features. Entering the actual development phase, we set out three milestones for development. In the first milestone we focused on rendering and entity systems, as well as an input library, logging, file I/O and storage, and initial set up elements. In the second milestone we continued focusing on entity systems, bring in physics and finish off the renderer, then include scene management, physics, collision detection, memory management and time keeping. In the third milestone we kept working on physics and started work on UI. By the end of all this had a base implementation of an engine, where all the elements worked and we could add more functions, and after that we focused on adding animation, audio, tools for world generation, gameplay, and HUD. 
+
+In each of these milestones, we would volunteer for the features we wanted to work on and we'd pick who would be the leader for it. This method meant that people's contributions were spread around a bit unevenly but also meant people were doing what they really wanted to. This main development phase took the most amount of time and in it we successfully implemented all the main features we set out to, though it took a bit longer than intended and so we didn't get to our stretch goals. Towards the end, we focused on polishing and bug fixing what we had while setting up a basic game as a presentation of what our engine could do, while simultaneously writing up the group report.
+
+For our project we used an agile approach to project management. This means that we would have multiple iterations of development consisting of lanning, developing, and testing, each time adding new functionality or complexity. We kept track of tasks with a kanban board, which we set up on Trello, utilised GitHub (of course) for a shared code base and version control, and Doxygen for our commenting style and documentation.
+
+For my own direct contributions, I first worked on the physics features. I researched possible libraries for us to use, and once we'd decided on which one I helped implement and test the functions that utilised it. When this was done, I helped solve some of the problems that others were having in their own work, though this did not yield commits under my name. Towards the end of the project I volunteered to write up the group project, and in doing so gave up programming tasks. I also researched possible methods for procedural level generation, though we never implemented this as it was a stretch goal.
+
+This was an example image from our final product:
+![image](https://github.com/Nebula-Dragon/Portfolio/assets/57454635/092f913c-b76a-48ac-b94f-ee9aa9c85bba)
 
 ## What I Learned
 ### Technical Learnings
